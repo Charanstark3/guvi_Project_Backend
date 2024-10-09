@@ -14,7 +14,7 @@ app.use(express.json());
 
 // CORS configuration
 const corsOptions = {
-  origin: 'https://employee-dashboard-management-zen.netlify.app',  // Your Netlify frontend URL
+  origin: 'https://employee-dashboard-management.netlify.app',  // Your Netlify frontend URL
   optionsSuccessStatus: 200 // For legacy browser support
 };
 
