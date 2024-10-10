@@ -18,7 +18,7 @@ connectDB();
 
 // CORS configuration to allow requests from your Netlify frontend
 const corsOptions = {
-  origin: 'https://employee-dashboard-management-zen.netlify.app',  // Replace with your frontend URL
+  origin: 'http://localhost:3000',  // Replace with your frontend URL
   optionsSuccessStatus: 200
 };
 
